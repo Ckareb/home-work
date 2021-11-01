@@ -1,0 +1,108 @@
+@import url("wrap.css");
+.wrap-header
+{
+    border: black 100px;
+    background-color: beige;
+    padding: 5px;
+}
+
+
+.flex-image
+{
+    display: flex;
+    justify-content: center;
+}
+.text-image
+{
+    position: absolute;
+    text-align: center;
+    align-self: center;
+}
+
+.text
+{
+    color: #dc3545;
+    font-size: 50px;
+}
+
+.image
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+
+}
+
+.header
+{
+    text-align: center;
+    margin: 15px;
+}
+
+hr
+{
+    display: block;
+    width: 300px;
+    height: 5px;
+    background-color: #dc3545;
+    border: 10px red;
+}
+
+.flex
+{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+
+.block
+{
+    display: block;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.block-inform
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sign
+{
+    text-align: center;
+    border: 1px solid #333;
+    padding: 7px;
+}
+
+.background
+{
+    background-color: #0dcaf0;
+}
+
+.footer
+{
+    border: 10px red;
+    background-color: #0c63e4;
+    border-radius: 15px;
+    margin: 10px;
+}
+/*
+.block-center
+{
+    display: flex;
+    justify-content: center;
+}
+
+.background-image
+ {
+     background-image: url("https://ilike.pet/upload/iblock/786/786fc0798233006257d41dc0132f6387.jpg");
+     width: 100%;
+     height: 100%;
+ }
+
+
